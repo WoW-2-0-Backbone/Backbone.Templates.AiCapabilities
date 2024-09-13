@@ -6,4 +6,14 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+        <ProjectReference Include="..\Backbone.Templates.AiCapabilities.Application\Backbone.Templates.AiCapabilities.Application.csproj"/>
+        <ProjectReference Include="..\Backbone.Templates.AiCapabilities.Persistence\Backbone.Templates.AiCapabilities.Persistence.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="WoW2.Backbone.AiCapabilities.NaturalLanguageProcessing.ChatCompletion.Abstractions" Version="8.0.0-alpha.3" />
+        <PackageReference Include="WoW2.Backbone.General.Time.Provider" Version="8.0.0-alpha.1" />
+    </ItemGroup>
+
 </Project>

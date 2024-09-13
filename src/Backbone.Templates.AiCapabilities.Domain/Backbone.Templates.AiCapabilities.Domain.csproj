@@ -6,4 +6,9 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+        <PackageReference Include="WoW2.Backbone.DataAccess.Relational.Entities" Version="8.0.0-alpha.1"/>
+        <PackageReference Include="WoW2.Backbone.Storage.Cache.Abstractions" Version="8.0.0-alpha.7"/>
+    </ItemGroup>
+
 </Project>
