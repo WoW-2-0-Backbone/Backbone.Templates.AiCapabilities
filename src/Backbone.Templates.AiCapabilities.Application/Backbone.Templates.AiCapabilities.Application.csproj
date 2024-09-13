@@ -6,4 +6,12 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Backbone.Templates.AiCapabilities.Domain\Backbone.Templates.AiCapabilities.Domain.csproj" />
+    </ItemGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="WoW2.Backbone.Comms.Infra.Abstractions" Version="8.0.0-alpha.7"/>
+    </ItemGroup>
+
 </Project>
